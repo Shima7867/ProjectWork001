@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1561312373127" stop="1561312377451" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify individual day temp timeline</name>
+    <title>Verify individual day temp timeline</title>
+    <test-cases>
+        <test-case start="1561312373128" stop="1561312373128" status="passed">
+            <name>Given I am on DarkSky Home Page</name>
+            <title>Given I am on DarkSky Home Page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shimas-MacBook-Pro.local"/>
+                <label name="thread" value="835@Shimas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1561312377218" stop="1561312377218" status="passed">
+            <name>When I expand today's timeline</name>
+            <title>When I expand today's timeline</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shimas-MacBook-Pro.local"/>
+                <label name="thread" value="835@Shimas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1561312377322" stop="1561312377322" status="passed">
+            <name>Then I verify lowest and highest temp is displayed correctly</name>
+            <title>Then I verify lowest and highest temp is displayed correctly</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shimas-MacBook-Pro.local"/>
+                <label name="thread" value="835@Shimas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify individual day temp timeline"/>
+        <label name="feature" value="DarkSky feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

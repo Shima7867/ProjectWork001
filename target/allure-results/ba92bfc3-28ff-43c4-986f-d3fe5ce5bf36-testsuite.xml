@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1561312357828" stop="1561312365105" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify invalid register page</name>
+    <title>Verify invalid register page</title>
+    <test-cases>
+        <test-case start="1561312358038" stop="1561312358041" status="passed">
+            <name>Given I am on DarkSky Home Page</name>
+            <title>Given I am on DarkSky Home Page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shimas-MacBook-Pro.local"/>
+                <label name="thread" value="835@Shimas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1561312360827" stop="1561312360827" status="passed">
+            <name>When I am on the darkSky Register page</name>
+            <title>When I am on the darkSky Register page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shimas-MacBook-Pro.local"/>
+                <label name="thread" value="835@Shimas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1561312362912" stop="1561312362912" status="passed">
+            <name>And I click on Register button</name>
+            <title>And I click on Register button</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shimas-MacBook-Pro.local"/>
+                <label name="thread" value="835@Shimas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1561312364960" stop="1561312364960" status="passed">
+            <name>Then I verify invalid register page "Fill out this field"</name>
+            <title>Then I verify invalid register page "Fill out this field"</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shimas-MacBook-Pro.local"/>
+                <label name="thread" value="835@Shimas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify invalid register page"/>
+        <label name="feature" value="DarkSky feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

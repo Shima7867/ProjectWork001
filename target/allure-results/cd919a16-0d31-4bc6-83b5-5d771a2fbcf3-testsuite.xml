@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1561312367921" stop="1561312370403" version="1.4.15" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Verify Current Temperature should not be greater or less than the Temperature from Daily Timeline</name>
+    <title>Verify Current Temperature should not be greater or less than the Temperature from Daily Timeline</title>
+    <test-cases>
+        <test-case start="1561312367923" stop="1561312367923" status="passed">
+            <name>Given I am on DarkSky Home Page</name>
+            <title>Given I am on DarkSky Home Page</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shimas-MacBook-Pro.local"/>
+                <label name="thread" value="835@Shimas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1561312370267" stop="1561312370267" status="passed">
+            <name>Then I verify current temp is not greater or less then temps from daily timeline</name>
+            <title>Then I verify current temp is not greater or less then temps from daily timeline</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Shimas-MacBook-Pro.local"/>
+                <label name="thread" value="835@Shimas-MacBook-Pro.local.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Verify Current Temperature should not be greater or less than the Temperature from Daily Timeline"/>
+        <label name="feature" value="DarkSky feature"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
